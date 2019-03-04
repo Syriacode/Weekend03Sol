@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDDC39"
+    tools:context=".Frg03">
+
+    <EditText
+        android:id="@+id/etEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"/>
+
+    <EditText
+        android:id="@+id/etEmployeeBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Birth Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeWage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Wage"/>
+
+    <EditText
+        android:id="@+id/etEmployeeHire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Hire Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Image"/>
+
+    <Button
+        android:id="@+id/btnFindAnEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND AN EMPLOYEE"/>
+
+    <Button
+        android:id="@+id/btnUpdateAnEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND AN EMPLOYEE"/>
+
+    <Button
+        android:id="@+id/btnDeleteAnEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE AN EMPLOYEE"/>
+
+
+</LinearLayout>

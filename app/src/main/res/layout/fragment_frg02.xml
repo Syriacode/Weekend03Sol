@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC78EC"
+    tools:context=".Frg02">
+
+    <EditText
+        android:id="@+id/etEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"/>
+
+    <EditText
+        android:id="@+id/etEmployeeBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Birth Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeWage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Wage"/>
+
+    <EditText
+        android:id="@+id/etEmployeeHire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Hire Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Image"/>
+
+    <Button
+        android:id="@+id/btnInsertEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT A NEW EMPLOYEE"/>
+
+</LinearLayout>
